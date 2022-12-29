@@ -29,10 +29,16 @@
     display: none;
   }
   .main .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+    gap: 10px;
     width: 100%;
-    height: 50%;
+    height: 520px;
     padding: 40px 20px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
   }
   .main .card ul{
     display: flex;
@@ -47,10 +53,37 @@
     text-decoration: none;
   }
 
-  .main-1 {
+  [class*="main-"]  {
     display: block;
-    background-image: url('./assets/main1.jpg');
-    background-size: 100vw 60vh;
+    background-position: center;
     background-repeat: no-repeat;
+  }
+
+  .main-1{
+    background-image: url('./assets/main1.jpg');
+  }
+  .main-2{
+    background-image: url('./assets/main2.jpg');
+  }
+  .main-3{
+    background-image: url('./assets/main3.jpg');
+  }
+  .main-4{
+    background-image: url('./assets/main4.jpg');
+  }
+  .main-5{
+    background-image: url('./assets/main5.jpg');
+  }
+  .main-6{
+    background-image: url('./assets/main6.jpg');
+  }
+  .main-7{
+    background-image: url('./assets/main7.jpg');
+  }
+  .main-8{
+    background-image: url('./assets/main8.png');
+  }
+  .main-9{
+    background-image: url('./assets/main9.jpg');
   }
 
