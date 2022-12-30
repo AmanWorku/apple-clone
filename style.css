@@ -1,154 +1,168 @@
 @import url('https://fonts.cdnfonts.com/css/sf-pro-display');
 
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  body {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   font-family: "San Francisco", sans-serif;
 }
 
-  .head-btns{
-    background-color: #111111dc;
-    color: #D6D6D6;
-    display: flex;
-    justify-content: space-between;
-    padding: 15px 20px;
-    font-size: 1.3em;
-    backdrop-filter:blur(8px);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
+.head-btns {
+  background-color: #111111dc;
+  color: #d6d6d6;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  font-size: 1.3em;
+  backdrop-filter: blur(8px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
 
-  .head-btns i:hover {
-    color: white;
-    transition: 0.33s ease;
-  }
-  header nav{
-    display: none;
-  }
-  .main .card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 10px;
-    width: 100%;
-    height: 520px;
-    padding: 40px 20px;
-    margin-bottom: 10px;
-    font-size: 1.2em;
-  }
-  .main .card ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    list-style-type: none;
-  }
+.head-btns i:hover {
+  color: white;
+  transition: 0.33s ease;
+}
 
-  .main .card ul a{
-    text-decoration: none;
-    font-size: 0.9em;
-  }
+header nav {
+  display: none;
+}
 
-  .card h4{
-    font-weight: 100;
-  }
-
-  .card a, .card li{
-    color: #4991DA;
-  }
-  .card li a:hover{
-    border-bottom: #4991DA 1px solid;
-  }
-
-  [class*="main-"]  {
-    display: block;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  .main-1{
-    margin-top: 50px;
-    background-image: url('./assets/main1.jpg');
-  }
-  .main-2{
-    background-image: url('./assets/main2.jpg');
-  }
-  .main-3{
-    background-image: url('./assets/main3.jpg');
-  }
-  .main-4{
-    background-image: url('./assets/main4.jpg');
-  }
-  .main-5{
-    background-image: url('./assets/main5.jpg');
-  }
-  .main-6{
-    background-image: url('./assets/main6.jpg');
-  }
-  .main-7{
-    background-image: url('./assets/main7.jpg');
-  }
-  .main-8{
-    background-image: url('./assets/main8.png');
-  }
-  .main-9{
-    background-image: url('./assets/main9.jpg');
-  }
-
-.main-2{
+.main .card {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  justify-content: flex-end;
-  color: #D6D6D6;;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  width: 100%;
+  height: 520px;
+  padding: 40px 20px;
+  margin-bottom: 10px;
+  font-size: 1.2em;
 }
 
-.main-3, .main-4, .main-7{
-  display: flex;
-  flex-direction: column;
-  color: #D6D6D6;;
-}
-
-footer{
-  background-color: #F5F5F7;
-  font-family: 'SF Pro Display', sans-serif;
-  font-size: 13px;
-  line-height: 1.33337;
-  font-weight: 400;
-  color: #8B8B8F;
-  padding: 20px 20px;
-}
-
-footer > p{
-  margin-bottom: 15px;
-}
-
-footer ul li{
+footer ul li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 10px 0;
 }
 
-footer > ul li  a{
+footer > ul li a {
   text-decoration: none;
-  color: #8B8B8F;
+  color: #8b8b8f;
 }
-footer ul li a:hover{
+
+.card a,
+.card li {
+  color: #4991da;
+}
+
+footer ul li a:hover {
   color: #535353;
 }
 
-.last-links{
-  color: #4991DA;
+.main .card ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  list-style-type: none;
+}
+
+.main .card ul a {
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.card h4 {
+  font-weight: 100;
+}
+
+.card li a:hover {
+  border-bottom: #4991da 1px solid;
+}
+
+[class*="main-"] {
+  display: block;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-1 {
+  margin-top: 50px;
+  background-image: url('./assets/main1.jpg');
+}
+
+.main-2 {
+  background-image: url('./assets/main2.jpg');
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  color: #d6d6d6;
+}
+
+.main-3 {
+  background-image: url('./assets/main3.jpg');
+}
+
+.main-4 {
+  background-image: url('./assets/main4.jpg');
+}
+
+.main-5 {
+  background-image: url('./assets/main5.jpg');
+}
+
+.main-6 {
+  background-image: url('./assets/main6.jpg');
+}
+
+.main-7 {
+  background-image: url('./assets/main7.jpg');
+}
+
+.main-8 {
+  background-image: url('./assets/main8.png');
+}
+
+.main-9 {
+  background-image: url('./assets/main9.jpg');
+}
+
+.main-3,
+.main-4,
+.main-7 {
+  display: flex;
+  flex-direction: column;
+  color: #d6d6d6;
+}
+
+footer {
+  background-color: #f5f5f7;
+  font-family: 'SF Pro Display', sans-serif;
+  font-size: 13px;
+  line-height: 1.33337;
+  font-weight: 400;
+  color: #8b8b8f;
+  padding: 20px 20px;
+}
+
+footer > p {
+  margin-bottom: 15px;
+}
+
+.last-links {
+  color: #4991da;
   text-decoration: none;
 }
 
-.last-links:hover{
-  border-bottom: #4991DA 1px solid;
+.last-links:hover {
+  border-bottom: #4991da 1px solid;
 }
